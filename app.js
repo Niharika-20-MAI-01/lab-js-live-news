@@ -1,6 +1,6 @@
 const getdata = async (country) => {
     try {
-        const apikey = '99b840033a7b4e6a8e68bb30c22abc34'
+        const apikey = 'bdc8803396fe4530a7cfe9827b5449b3'
         let data = await fetch(`https://newsapi.org/v2/top-headlines?country=${country}&apiKey=${apikey}`)
 
         if (data.status === 200)
@@ -55,13 +55,6 @@ const homepage = () => {
 
 }
 homepage()
-
-
-
-
-
-
-
 
 
 const displaydropdown = () => {
